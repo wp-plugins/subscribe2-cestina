@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Maybe load the subscribe2 čeština.
  *
- * @since 1.2
+ * @since 2.0
  */
 function sb2_load_textdomain() {
 	$mofile = WP_PLUGIN_DIR . '/subscribe2-cestina/jazyky/' . apply_filters( 'subscribe2_locale', get_locale() ) . '.mo';
