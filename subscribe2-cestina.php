@@ -1,11 +1,12 @@
 <?php
 /*
 Plugin Name: Subscribe2 čeština
-Plugin URI: http://wpguru.eu
+Plugin URI: http://wick.cz
 Description: Přeloží plugin subscribe2 do češtiny.
-Version: 1.1
-Author: Expres-Web.cz
-Author URI: http://www.expres-web.cz
+Version: 1.2
+Author: Wick.cz
+Author URI: http://wick.cz
+License: GPLv2 or later
 Text Domain: sb2
 
 This program is free software; you can redistribute it and/or modify
@@ -29,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Maybe load the subscribe2 čeština.
  *
- * @since 1.0
+ * @since 1.2
  */
 function sb2_load_textdomain() {
 	$mofile = WP_PLUGIN_DIR . '/subscribe2-cestina/jazyky/' . apply_filters( 'subscribe2_locale', get_locale() ) . '.mo';
