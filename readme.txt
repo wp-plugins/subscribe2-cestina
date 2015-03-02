@@ -1,10 +1,10 @@
-﻿=== Subscribe2 čeština ===
+=== Subscribe2 čeština ===
 Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: Subscribe2, čeština, Subscribe2 čeština,
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.1
+Tested up to: 4.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,9 +27,12 @@ Již brzy
 
 Našel jsem chybu, co mám dělat?
 
-Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http://wpguru.eu/forum/?mingleforumaction=viewforum&f=13.0)
+Pokud naleznete chybu, zdělte nám to prosím
 
 == Changelog ==
+
+= 1.2 =
+Obnova pluginu
 
 = 1.1 =
 Otestováno na WordPress v 3.5
