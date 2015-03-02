@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-03-01 12:26+0100\n"
+"PO-Revision-Date: 2015-03-02 06:18+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Expres-Web.cz <info@expres-web.cz>\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: admin/app_page.php:18
 msgid "Tips"
-msgstr ""
+msgstr "Tipy"
 
 #: admin/app_page.php:20
 msgid ""
@@ -65,19 +65,19 @@ msgstr ""
 
 #: admin/app_page.php:43
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #: admin/app_page.php:48 admin/app_page.php:73
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: admin/app_page.php:53 admin/app_page.php:78
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: admin/app_page.php:58
 msgid "Confirm Password"
-msgstr ""
+msgstr "Potvrdit heslo"
 
 #: admin/app_page.php:62 classes/class-s2-frontend.php:119
 msgid ""
@@ -139,31 +139,31 @@ msgstr ""
 
 #: admin/send_email.php:99
 msgid "Send an email to subscribers"
-msgstr ""
+msgstr "Odeslat email odběratelům"
 
 #: admin/send_email.php:107
 msgid "A message from"
-msgstr ""
+msgstr "Zpráva od"
 
 #: admin/send_email.php:112
 msgid "Subject"
-msgstr ""
+msgstr "Předmět"
 
 #: admin/send_email.php:115
 msgid "Add More Files"
-msgstr ""
+msgstr "Přidat více souborů"
 
 #: admin/send_email.php:117
 msgid "Recipients:"
-msgstr ""
+msgstr "Příjemci:"
 
 #: admin/send_email.php:120
 msgid "Preview"
-msgstr ""
+msgstr "Náhled"
 
 #: admin/send_email.php:120
 msgid "Send"
-msgstr ""
+msgstr "Poslat"
 
 #: admin/settings.php:13
 msgid "Options reset!"
@@ -264,11 +264,11 @@ msgstr "Odhlášení"
 
 #: admin/settings.php:199
 msgid "Both"
-msgstr ""
+msgstr "Obojí"
 
 #: admin/settings.php:201
 msgid "Neither"
-msgstr ""
+msgstr "Žádný"
 
 #: admin/settings.php:203
 msgid "Include theme CSS stylesheet in HTML notifications"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: admin/settings.php:279
 msgid "a list of post titles<br />(<i>for digest emails only</i>)"
-msgstr "seznam nadpisů článků <br />(<i>pouze pro digest emaily</i>)"
+msgstr "seznam nadpisů článků<br />(<i>pouze pro digest emaily</i>)"
 
 #: admin/settings.php:280
 msgid ""
@@ -415,49 +415,54 @@ msgstr "trvalé odkazy po konverzi TinyURL"
 #: admin/settings.php:284
 msgid "the date the post was made<br />(<i>for per-post emails only</i>)"
 msgstr ""
-"datum, kdy příspěvek byl vytvořen<br />(<i>for per-post emails only</i>)"
+"datum, kdy příspěvek byl vytvořen<br />(<i>pouze pro jednotlivé emaily)</i>)"
 
 #: admin/settings.php:285
 msgid "the time the post was made<br />(<i>for per-post emails only</i>)"
 msgstr ""
+"čase kdy byl článek vytvořen<br />(<i>pouze pro jednotlivé emaily)</i>)"
 
 #: admin/settings.php:286
 msgid "the admin or post author's name"
-msgstr ""
+msgstr "jménem administrátora nebo autora článku"
 
 #: admin/settings.php:287
 msgid "the admin or post author's email"
-msgstr ""
+msgstr "emailem administrátora nebo autora článku"
 
 #: admin/settings.php:288
 msgid "the post author's name"
-msgstr ""
+msgstr "jménem autora článku"
 
 #: admin/settings.php:289
 msgid ""
 "the generated link to confirm a request<br />(<i>only used in the "
 "confirmation email template</i>)"
 msgstr ""
+"generovaným odkazem pro potvrzení žádosti<br />(<i>použito pouze v "
+"potvrzovací šabloně</i>)"
 
 #: admin/settings.php:290
 msgid ""
 "Action performed by LINK in confirmation email<br />(<i>only used in the "
 "confirmation email template</i>)"
 msgstr ""
+"Akce provedena ODKAZEM v potvrzovacím emailu<br />(<i>použito pouze v "
+"potvrzovací šabloně</i>)"
 
 #: admin/settings.php:291
 msgid "the post's assigned categories"
-msgstr ""
+msgstr "přiřazenou kategorií článku"
 
 #: admin/settings.php:292
 msgid "the post's assigned Tags"
-msgstr ""
+msgstr "přiřazeným TAGem článku"
 
 #: admin/settings.php:293
 msgid ""
 "the number of posts included in the digest email<br />(<i>for digest emails "
 "only</i>)"
-msgstr ""
+msgstr "počtem článků zahrnutých emailu<br />(<i>pouze pro digest emaily</i>)"
 
 #: admin/settings.php:295
 msgid "Subscribe / Unsubscribe confirmation email"
@@ -496,13 +501,15 @@ msgstr "Umožnit registrovaným uživatelům přihlásit se k vyloučené katego
 
 #: admin/settings.php:335
 msgid "Excluded Formats"
-msgstr ""
+msgstr "Vyloučené formáty"
 
 #: admin/settings.php:337
 msgid ""
 "Posts assigned to any Excluded Format do not generate notifications and are "
 "not included in digest notifications"
 msgstr ""
+"Příspěvky, které jsou přiřazeny k vyloučené kategorii negenerují oznámení a "
+"nejsou součástí algoritmu oznámení"
 
 #: admin/settings.php:345
 msgid "Auto-Subscribe"
@@ -1173,7 +1180,7 @@ msgstr "Vybrat / zrušit výběr všech"
 
 #: classes/class-s2-admin.php:579
 msgid "All Users and Subscribers"
-msgstr ""
+msgstr "Všichni uživatelé a odběratelé"
 
 #: classes/class-s2-admin.php:581
 msgid "Confirmed"
