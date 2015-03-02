@@ -1,16 +1,16 @@
 === Subscribe2 čeština ===
-Contributors: expres-web, wick.cz
+Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: Subscribe2, čeština, Subscribe2 čeština,
-Requires at least: 3.0.0
+Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Přeloží plugin Subscribe2 do češtiny, testované na veti pluginu 10.18.4
+Přeloží plugin Subscribe2 do češtiny.
 
 
 == Installation ==
@@ -27,13 +27,12 @@ Již brzy
 
 Našel jsem chybu, co mám dělat?
 
-Pokud naleznete chybu, zdělte nám to prosím.
+Pokud naleznete chybu, zdělte nám to prosím
 
 == Changelog ==
 
-= 2.0 =
-* Obnova pluginu
-* Přeložené části do češtiny
+= 1.2 =
+Obnova pluginu
 
 = 1.1 =
 Otestováno na WordPress v 3.5

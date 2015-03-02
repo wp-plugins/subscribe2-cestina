@@ -3,10 +3,9 @@
 Plugin Name: Subscribe2 čeština
 Plugin URI: http://wick.cz
 Description: Přeloží plugin subscribe2 do češtiny.
-Version: 2.0
-Author: Wick.cz
+Version: 1.2
+Author: Expres-Web.cz
 Author URI: http://wick.cz
-License: GPLv2 or later
 Text Domain: sb2
 
 This program is free software; you can redistribute it and/or modify
